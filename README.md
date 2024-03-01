@@ -1,10 +1,13 @@
-# EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resistor
-
+## Exp-4-PRESSURE MEASUREMENT USING ARDUINO AIM TO INTERFACE AN FSR FORCE SENSITIVE RESISTOR
+### Date:01/02/2024
+### Name:Bala R
+### Rollnumber:212222220007
+### Department:B.Tech IT
 
 ## AIM: 
 To interface an FSR(force sensitive resistor) and scale the output voltage obtained to pressure applied 
  
-### COMPONENTS REQUIRED:
+## COMPONENTS REQUIRED:
 1.	FSR  (force sensitive resistor)
 2.	1 KΩ resistor 
 3.	Arduino Uno 
@@ -12,7 +15,7 @@ To interface an FSR(force sensitive resistor) and scale the output voltage obtai
 5.	Connecting wires 
 
 
-### THEORY: 
+## THEORY: 
 FSRs are basically a resistor that changes its resistive value (in ohms Ω) depending on how much it is pressed. These sensors are fairly low cost, and easy to use. They also vary some from sensor to sensor perhaps 10%. FSR's resistance changes as more pressure is applied. When there is no pressure, the sensor looks like an infinite resistor (open circuit), as the pressure increases, the resistance goes down. This graph indicates approximately the resistance of the sensor at different force measurements.
  
 
@@ -20,13 +23,7 @@ FSRs are basically a resistor that changes its resistive value (in ohms Ω) depe
 
 ### FIGURE 01 GRAPH OF FORCE vs RESISTANCE **
 
-
-
-
 ![image](https://user-images.githubusercontent.com/36288975/163532957-82d57567-a1c3-48c5-8a87-7ea66d6fca49.png)
-
-
-
 
 ### FIGURE 02 FORCE SENSITIVE RESITOR FOIL DISC TYPE  
 
@@ -36,31 +33,18 @@ The easiest way to measure a resistive sensor is to connect one end to power and
 
  ![image](https://user-images.githubusercontent.com/36288975/163532972-2b909551-12c9-485d-adb1-d1e988d557bd.png)
 
-### TABLE -01 FORCE AND OUTPUT VOLTAGES**
+## TABLE -01 FORCE AND OUTPUT VOLTAGES**
 	
   Table -01 indicates the approximate analog voltage based on the sensor force/resistance w/a 5V supply and 10K pull down resistor.
 
-### Vo = Vcc ( R / (R + FSR) )								Eq-01
+## Vo = Vcc ( R / (R + FSR) )								Eq-01
 
 ****Where R= 1KΩ in this experiment 
 ****That is, the voltage is proportional to the inverse of the FSR resistance.
 
-
-
-
-
-
-
-
-
-
 ![image](https://user-images.githubusercontent.com/36288975/163532979-a2a5cb5c-f495-442c-843e-bebb82737a35.png)
 
-
-
 ### FIGURE-03 CIRCUIT DIAGRAM
-
-
 
 ### PROCEDURE:
 1.	Connect the circuit as per the circuit diagram 
@@ -74,29 +58,10 @@ The easiest way to measure a resistive sensor is to connect one end to power and
 9.	Ensure safety before powering up the device 
 10.	Plot the graph for the output voltage vs the resistance 
 
+## PROGRAM
 
-### PROGRAM 
- *your roll no 
- * your name 
- * department and year 
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
 ![image](https://user-images.githubusercontent.com/36288975/188804653-a3154e8e-2655-46f2-9dcd-f425dd1ba109.png)
-
 
 ### TABLE -02 standard deviation table 
 ### Population Standard Deviation
@@ -114,19 +79,5 @@ For those unfamiliar with summation notation, the equation above may seem daunti
 EX:           μ = (1+3+4+7+8) / 5 = 4.6        
 σ = √[(1 - 4.6)2 + (3 - 4.6)2 + ... + (8 - 4.6)2)]/5
 σ = √(12.96 + 2.56 + 0.36 + 5.76 + 11.56)/5 = 2.577
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ### RESULTS : Arduino uno is interfaced with FSR and output values are indicated on a graph.
